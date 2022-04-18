@@ -1,0 +1,40 @@
+.button-link {
+    font-size: 1rem;
+
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    
+}
+
+.button-link:hover {
+    border-bottom: 3px solid #5bbfee;
+}
+
+.button-link:active {
+    transform: scale(0.9);
+}
+
+
+
+.button-login {
+    border: 1px solid #eaf4f850;
+    padding: 0.3rem 1rem;
+    color: #5bbfee;
+    font-weight: 700;
+    font-size: 1.1rem;
+
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.button-login:hover {
+    filter: brightness(0.95);
+
+}
+
+.button-login:active {
+    transform: scale(0.9);
+}

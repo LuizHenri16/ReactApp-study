@@ -1,0 +1,42 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.links-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    text-align: center;
+
+}
+
+
+.links-section h2 {
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-top: 1rem;
+}
+
+.links-section a {
+    font-size: 1.3rem;
+    color: rgb(54, 54, 54);
+}
+
+.copyright-section {
+    margin: 2rem;
+    font-size: 1rem;
+    color: rgb(83, 83, 83);
+}
+
+@media (min-width: 900px) {
+    .links-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 3rem;
+    
+        text-align: center;
+    
+    }
+}

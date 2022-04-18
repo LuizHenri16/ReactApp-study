@@ -1,0 +1,33 @@
+
+
+.container {
+    
+    width: 100%;
+    padding: 1rem ;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #74b6d48c;
+
+    box-shadow:3px -5px 11px 7px rgba(0,0,0,0.35)    ;
+
+}
+
+.container  .logo {
+    font-size: 1.4rem;
+}
+.container ul {
+    display: flex;
+}
+
+.container ul Button {
+    margin-left: .9rem;
+}
+
+@media (min-width: 900px) {
+    .container  .logo {
+        font-size: 1.5rem;
+    }
+}

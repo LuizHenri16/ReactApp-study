@@ -1,0 +1,46 @@
+body {
+    overflow-x: hidden;
+    font-size: 75%;
+}
+
+main {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 3.5rem;
+    color: rgb(44, 44, 44);
+}
+
+main .text {
+    margin-top: .5rem;
+
+    font-size: 1.4rem;
+    font-weight:600;
+    color:rgb(63, 63, 63) ;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    border-bottom: 1px solid rgba(155, 155, 155, 0.178);
+    width: 70%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+@media (min-width: 900px) {
+    .cards {
+        display: flex;
+        flex-direction: row;
+    }
+}

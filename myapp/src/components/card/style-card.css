@@ -1,0 +1,69 @@
+.card {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    margin: 2rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(230, 230, 230);
+    border-top: none;
+    background: rgb(241, 241, 241);
+}
+
+.card .header {
+    width: 100%;
+    height: 2rem;
+    padding: 1rem;
+    background: rgb(212, 212, 212);
+    color: #0097dd;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: -3.6rem;
+    border-radius: .5rem .5rem 0 0;
+    border: 1px solid rgb(233, 233, 233);
+    border-bottom: none;
+}
+
+.card .price {
+    margin-top: -3rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.card .services {
+    margin-top: -1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.4rem;
+    
+}
+
+.card .button button {
+    padding: .5rem 1rem;
+    background-color: transparent;
+    border: 1px solid #0097dd;
+    border-radius: .5rem;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.card .button button:hover{
+    transform: scale(1.02);
+    background: #1cb0f5;
+    color: #fff;
+}
+.card .button button:active{
+    transform: scale(.9);
+    
+}
+
+
+@media (min-width: 900px) {
+    .card {
+        width: 15rem;
+    }
+}
